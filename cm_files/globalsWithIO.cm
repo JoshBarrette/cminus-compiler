@@ -1,0 +1,20 @@
+/*
+   globalsWithIO.cm
+   This program does simple IO on global variables
+
+   Written by: Stuart Hansen
+   February 2018
+*/
+
+int x;
+int y;
+
+void main( void )
+{
+  x = input();
+  y = input();
+  x = 1;
+  output(x);
+  output(y);
+  output(x, y);
+}

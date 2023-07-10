@@ -1,0 +1,15 @@
+/*
+   simpleExpression.cm
+   This program does simple math on global variables
+
+   Written by: Stuart Hansen
+   February 2018
+*/
+
+int x;
+int y;
+
+void main( void )
+{
+  output(input());
+}
